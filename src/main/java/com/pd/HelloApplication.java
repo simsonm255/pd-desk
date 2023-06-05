@@ -1,4 +1,4 @@
-package com.example.pd;
+package com.pd;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

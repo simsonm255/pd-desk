@@ -7,6 +7,6 @@ module com.example.pd {
     requires org.kordamp.bootstrapfx.core;
     requires com.almasb.fxgl.all;
 
-    opens com.example.pd to javafx.fxml;
-    exports com.example.pd;
+    opens com.pd to javafx.fxml;
+    exports com.pd;
 }
