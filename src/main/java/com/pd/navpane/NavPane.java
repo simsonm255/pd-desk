@@ -9,11 +9,13 @@ public class NavPane extends VBox {
     private Button calenderpane;
 
     public NavPane(Button calenderpane) {
-
         initStuff();
     }
 
     public void initStuff(){
 
     }
+
+
+
 }
