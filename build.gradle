@@ -26,7 +26,7 @@ tasks.withType(JavaCompile) {
 
 application {
     mainModule = 'com.example.pd'
-    mainClass = 'com.example.pd.HelloApplication'
+    mainClass = 'com.pd.PersonalDiary'
 }
 
 javafx {
