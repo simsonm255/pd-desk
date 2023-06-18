@@ -1,0 +1,9 @@
+.navbar {
+    -fx-position: absolute;
+    -fx-pref-width: 208px;
+    -fx-pref-height: 480px;
+    -fx-left: 16px;
+    -fx-top: 120px;
+    -fx-background-color: transparent; /* To achieve mix-blend-mode */
+    -fx-blend-mode: hard-light; /* To achieve mix-blend-mode */
+}

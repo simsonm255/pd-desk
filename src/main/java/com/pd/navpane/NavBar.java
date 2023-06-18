@@ -10,19 +10,20 @@ public class NavBar extends VBox {
     private Button calenderPane;
 
     public NavBar() {
-        initStuff();
-    }
 
+        initStuff ( );
+        getStyleClass().add ("navbar");
+    }
     public void initStuff(){
         setPadding(new Insets(5));
-        this.setSpacing(10);
+
         this.getChildren().add(getNotesPaneButton());
         this.getChildren().add(getTaskPaneButton());
     }
     public Button getNotesPaneButton() {
 
         if(notesPaneButton==null){
-            notesPaneButton = new Button("NotesPaneButton");
+            notesPaneButton = new Button("Notes");
             notesPaneButton.setOnAction(e->{
                 System.out.println("notesPaneButton clicked");
             });
@@ -33,11 +34,13 @@ public class NavBar extends VBox {
     public Button getTaskPaneButton() {
 
         if(taskPaneButton==null){
-            taskPaneButton = new Button("TaskPaneButton");
+            taskPaneButton = new Button("Task");
             taskPaneButton.setOnAction(e->{
                 System.out.println("taskPaneButton clicked");
             });
         }
         return taskPaneButton;
     }
+
+
 }
