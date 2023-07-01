@@ -19,6 +19,8 @@ public class NavBar extends VBox {
 
         this.getChildren().add(getNotesPaneButton());
         this.getChildren().add(getTaskPaneButton());
+        getStylesheets().add("asserts/navbarStyle.css");
+
     }
     public Button getNotesPaneButton() {
 
